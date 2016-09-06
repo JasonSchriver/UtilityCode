@@ -1,6 +1,6 @@
 #!/bin/bash
-$email = "your email"
+EMAIL="your email"
 sleep  15
-echo -e "Pi Booted Successfully!\n"`/home/pi/get_ips.sh`| mail -s "IP for Pi" $email
+echo -e "Pi Booted Successfully!\n"`/home/pi/get_ips.sh`| mail -s "IP for Pi" $EMAIL
 
 
